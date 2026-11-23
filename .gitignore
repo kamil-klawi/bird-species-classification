@@ -1,0 +1,25 @@
+# Środowiska wirtualne i cache Pythona
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.venv/
+venv/
+env/
+.conda/
+
+# Jupyter Notebook i VS Code
+.ipynb_checkpoints/
+.vscode/
+.DS_Store
+
+# Dane z TensorFlow Datasets (CUB-200-2011 potrafi ważyć ponad 1 GB)
+tensorflow_datasets/
+downloads/
+*.tfrecord*
+
+# Zapisane wagi modeli i logi treningu
+*.h5
+*.keras
+*.ckpt*
+logs/
